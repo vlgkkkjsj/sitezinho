@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn
+{
+    display: inline-block;
+    padding: 15px 60px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    background: #111;
+    color: #eee;
+    border-radius: 5px;
+    transform: background 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #ff6961;
+}
+
+.headline{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+
+#navbar{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+}
+#navbar-items
+{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+#navbar-items li{
+    padding: 10px;
+}
+
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(eu\ e\ ela\ pra\ sempre.png)no-repeat center center/cover;
+
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+
+#showcase-container
+{
+    text-align: center;
+}
+
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+
+#Jogos
+{
+    width: 100%;
+    background: #eee;
+    padding: 50px;
+    color: #111;
+}
+
+#Games-Container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    padding: 15px;
+}
+
+.game
+{
+    display: inline-block;
+    width: 30%;
+}
+
+#coisas
+{
+    width: 100%;
+    background: #ff6961;
+    color: #eee;
+    padding: 50px;
+}
+
+#coisas-container
+{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+}
+.coisa
+{
+    display: flex;
+    flex-direction: column;
+    background: rgb(138, 34, 34);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.coisas-title
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#faremos
+{
+    width: 100%;
+    padding: 50px;
+}
+
+#fazemos-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items
+{
+    width: 650px;
+}
+
+#items .item
+{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+#avaliacao
+{
+    width: 100%;
+    background: #ff6961;
+    color: #eee;
+    padding: 50px;
+}
+
+#avaliacao-container
+{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avaliacoes
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: rgb(138, 34, 34);
+    padding: 15px;
+    margin: 15px 0 ;
+    border-radius: 5px;
+}
+
+.avaliacoes .fotinha
+{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#galeria
+{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+#fotinhas-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,3.4fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.fotinhas
+{
+    display: inline-block;
+    width: 540;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+#footer
+{
+    background: #ff6961;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}
